@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fraunces';
+}
+.Perfume{
+    width: 1400px;
+    height: 800px;
+    background-color:rgb(216, 202, 181);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 150px;
+}
+.perfume_box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 680px;
+    height: 500px;
+    background-color:white;
+    border-radius: 10px;
+    margin: auto;
+    padding-right: 70px;
+    position: absolute;
+    left:340px ;
+    bottom: 150px;
+}
+.perfume_image{
+    width: 350px;
+    height: 500px;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+}
+.perfume_text{
+    font-weight: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.perfume_text h2{
+    opacity: 0.5;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+}
+.perfume_text h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.perfume_text p{
+    font-size: 20px;
+    font-style: bold;
+    opacity: 0.85;
+    margin-bottom: 12px;
+    width: 270px;
+}
+.perfume_text section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.perfume_text section .perfume_price_cheap{
+    font-size: 45px;
+    color:rgb(37, 114, 96);
+}
+.perfume_text section .perfume_price_expensive{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.button{
+    background-color:rgb(37, 114, 96);
+    border-radius: 8px;
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.button img{
+   width: 15px;
+   height: 15px; 
+   margin-left: 35px;
+}
+.button .product-perview-card-button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    left: 90px;
+}
+.button:hover{
+    background-color:rgb(1, 101, 56);
+}
